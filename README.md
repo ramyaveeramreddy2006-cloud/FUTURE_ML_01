@@ -30,6 +30,8 @@ The website also shows:
 ```text
 ML/
   index.html
+  style.css
+  script.js
   ml.html
   README.md
 
@@ -50,10 +52,16 @@ ML/
 
 ```text
 index.html
-  Main entry file for opening the website from the root folder.
+  Main frontend page for GitHub Pages and browser opening.
+
+style.css
+  Root CSS file for the unique dashboard design, colors, charts, cards, and layout.
+
+script.js
+  Root JavaScript file for forecast logic, chart updates, API connection, and demo mode.
 
 ml.html
-  Redirect page that opens the full forecasting dashboard.
+  Redirect page that opens the root website.
 
 frontend/index.html
   Main frontend page containing the sales forecasting dashboard layout.
